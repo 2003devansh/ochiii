@@ -14,9 +14,9 @@ const Navbar = () => {
 	</svg>
    </div>
    <div className='Links flex gap-10' >
-    {["Item ", "Our Works" , "About Us " , "Insights" , "contact"] .map((item , index) =>(
-        <a key={index} className={`item-lg captialize cursor-pointer font-regular  ${index === 4 && "ml-32" } `}>{item}</a>
-    ))}
+    {["Item ", "Our Works" , "About Us " , "Insights" , "contact"] .map((item , index) =>{
+      return <a key={index} className={`item-lg captialize cursor-pointer font-regular  ${index === 4 && "ml-32" } `}>{item}</a>
+    })}
    </div>
    </div >
    </>
