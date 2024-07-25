@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LandingPage = () => {
+const LandingPage = () => {  
   return (
    <>
    <div className='w-full h-screen bg-zinc-900 pt-1'>
