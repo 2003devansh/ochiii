@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowUp } from "react-icons/fa";
 
 const LandingPage = () => {  
   return (
@@ -16,7 +17,8 @@ const LandingPage = () => {
         return <p className='text-md font-thin tracking-tight leading-none'>{item}</p>
       })}
       <div className='start'>
-        <div className='px-4 border-[1] border rounded-full'>Start the thing</div>
+        <button className='px-4 border-[1] border rounded-full'>Start the thing</button>
+        <div className='w-3 h-3 rounded-full'><FaArrowUp /> </div>
       </div>
     </div>
    </div>
